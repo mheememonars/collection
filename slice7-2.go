@@ -13,7 +13,7 @@ func main() {
     fmt.Printf("slice: length %v, capacity %v, %v\n", len(slice), cap(slice), slice)
     // append
     for i := 4; i < 15; i++ {
-    slice = append(slice, i)
+     slice = append(slice, i)
     }
     fmt.Printf("slice: length %v, capacity %v, %v\n", len(slice), cap(slice), slice)
 }
